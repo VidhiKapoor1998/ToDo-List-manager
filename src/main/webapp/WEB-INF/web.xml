@@ -1,0 +1,67 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>UserLogin</servlet-name>
+  	<display-name>UserLogin</display-name>
+  	<description></description>
+  	<servlet-class>service.UserLogin</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddTask</servlet-name>
+  	<display-name>AddTask</display-name>
+  	<description></description>
+  	<servlet-class>service.AddTask</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ViewTask</servlet-name>
+  	<display-name>ViewTask</display-name>
+  	<description></description>
+  	<servlet-class>service.ViewTask</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteTask</servlet-name>
+  	<display-name>DeleteTask</display-name>
+  	<description></description>
+  	<servlet-class>service.DeleteTask</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UpdateTask</servlet-name>
+  	<display-name>UpdateTask</display-name>
+  	<description></description>
+  	<servlet-class>service.UpdateTask</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Logout</servlet-name>
+  	<display-name>Logout</display-name>
+  	<description></description>
+  	<servlet-class>service.Logout</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UserLogin</servlet-name>
+  	<url-pattern>/UserLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddTask</servlet-name>
+  	<url-pattern>/AddTask</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ViewTask</servlet-name>
+  	<url-pattern>/ViewTask</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteTask</servlet-name>
+  	<url-pattern>/DeleteTask</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateTask</servlet-name>
+  	<url-pattern>/UpdateTask</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Logout</servlet-name>
+  	<url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+</web-app>
